@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/phnormalguy/tungwong-video-worker/configs"
+	"github.com/Tungwong-Project/tungwong-video-worker/configs"
 	"github.com/sirupsen/logrus"
 )
 

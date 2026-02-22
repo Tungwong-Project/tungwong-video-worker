@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/nats-io/nats.go"
-	"github.com/phnormalguy/tungwong-video-worker/configs"
-	"github.com/phnormalguy/tungwong-video-worker/internal/models"
+	"github.com/Tungwong-Project/tungwong-video-worker/configs"
+	"github.com/Tungwong-Project/tungwong-video-worker/internal/models"
 	"github.com/sirupsen/logrus"
 )
 

@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/phnormalguy/tungwong-video-worker/configs"
-	"github.com/phnormalguy/tungwong-video-worker/internal/ffmpeg"
-	"github.com/phnormalguy/tungwong-video-worker/internal/grpc"
-	"github.com/phnormalguy/tungwong-video-worker/internal/nats"
+	"github.com/Tungwong-Project/tungwong-video-worker/configs"
+	"github.com/Tungwong-Project/tungwong-video-worker/internal/ffmpeg"
+	"github.com/Tungwong-Project/tungwong-video-worker/internal/grpc"
+	"github.com/Tungwong-Project/tungwong-video-worker/internal/nats"
 	"github.com/sirupsen/logrus"
 )
 

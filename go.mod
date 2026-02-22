@@ -1,10 +1,10 @@
-module github.com/phnormalguy/tungwong-video-worker
+module github.com/Tungwong-Project/tungwong-video-worker
 
 go 1.24.0
 
 require (
 	github.com/nats-io/nats.go v1.31.0
-	github.com/Tungwong-Project/tungwong-protos/gen/go/video v0.0.0-20260130000000-6cc531c00000
+	github.com/Tungwong-Project/tungwong-protos/gen/go/video v0.1.0
 	github.com/sirupsen/logrus v1.9.4
 	google.golang.org/grpc v1.78.0
 	google.golang.org/protobuf v1.36.10

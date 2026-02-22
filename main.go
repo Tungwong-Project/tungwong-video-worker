@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/phnormalguy/tungwong-video-worker/configs"
-	"github.com/phnormalguy/tungwong-video-worker/internal/worker"
-	"github.com/phnormalguy/tungwong-video-worker/pkg/logger"
+	"github.com/Tungwong-Project/tungwong-video-worker/configs"
+	"github.com/Tungwong-Project/tungwong-video-worker/internal/worker"
+	"github.com/Tungwong-Project/tungwong-video-worker/pkg/logger"
 )
 
 func main() {

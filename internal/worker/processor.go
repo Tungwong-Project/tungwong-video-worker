@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/phnormalguy/tungwong-video-worker/configs"
-	"github.com/phnormalguy/tungwong-video-worker/internal/ffmpeg"
-	"github.com/phnormalguy/tungwong-video-worker/internal/grpc"
-	"github.com/phnormalguy/tungwong-video-worker/internal/models"
+	"github.com/Tungwong-Project/tungwong-video-worker/configs"
+	"github.com/Tungwong-Project/tungwong-video-worker/internal/ffmpeg"
+	"github.com/Tungwong-Project/tungwong-video-worker/internal/grpc"
+	"github.com/Tungwong-Project/tungwong-video-worker/internal/models"
 	"github.com/sirupsen/logrus"
 )
 

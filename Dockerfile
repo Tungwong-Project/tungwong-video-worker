@@ -5,12 +5,17 @@ RUN apk add --no-cache ffmpeg git
 
 WORKDIR /app
 
+# Set GOPRIVATE to bypass Go proxy for private repos
+ENV GOPRIVATE=github.com/Tungwong-Project/*
+ENV GONOSUMCHECK=github.com/Tungwong-Project/*
+
 # Copy go mod files
-COPY go.mod go.sum ./
+COPY go.mod go.sum* ./
 RUN go mod download
 
 # Copy source code
 COPY . .
+RUN go mod tidy
 
 # Build
 RUN CGO_ENABLED=0 GOOS=linux go build -o worker main.go
